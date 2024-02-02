@@ -38,7 +38,8 @@ body{
 .question-section{
     height: fit-content;
     width: 90%;
-    background: #5D3587;
+    background: white;
+    border-radius: 50px;
 }
 .btn{
     outline: none;
@@ -88,6 +89,12 @@ li{
     font-weight: 600;
 }
 .ResultAdd{
-    color: black;
+    color: white;
     font-weight: bolder;
+}
+h5{
+    font-size: 20px;
+}
+li{
+    font-size: 15px;
 }

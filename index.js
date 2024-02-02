@@ -88,7 +88,7 @@ submitBtn.addEventListener("click", () => {
     const questionElement = document.createElement("div");
     questionElement.classList.add("question");
 
-    const questionText = document.createElement("h1");
+    const questionText = document.createElement("h5");
     questionText.textContent = `${index + 1}. ${question.question}`;
     questionElement.appendChild(questionText);
 
@@ -139,7 +139,7 @@ resultBtn.addEventListener("click", () => {
     return;
   }
   resultBox.innerHTML = "";
-  const resultText = document.createElement("h1");
+  const resultText = document.createElement("h3");
   resultText.classList.add('ResultAdd');
   resultText.textContent = `${nameInput.value} score is ${score} out of ${quizQuestions.length} `;
   resultBox.appendChild(resultText);
